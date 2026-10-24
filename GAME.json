@@ -1,0 +1,70 @@
+{
+  "slug": "rain-rhythm",
+  "url": "https://nanalab.kr/rain-rhythm/",
+  "titles": {
+    "ko": "방금 본 빗방울, 같은 박자로 칠 수 있을까?",
+    "en": "Can you repeat the rhythm of the raindrops you just saw?",
+    "zh": "刚看过的雨滴节奏，你能敲出来吗？",
+    "es": "¿Puedes repetir el ritmo de las gotas que acabas de ver?"
+  },
+  "descriptions": {
+    "ko": "혼자 즐기고 나만의 결과를 공유하는 작은 게임.",
+    "en": "A small solo game. Play, discover your result, and share.",
+    "zh": "独自挑战，看看自己的成绩，再分享给朋友。",
+    "es": "Un juego para ti. Descubre tu resultado y compártelo."
+  },
+  "color": "#253f50",
+  "cardLines": {
+    "ko": [
+      "톡, 톡톡, 톡.",
+      "손끝은 기억할까?"
+    ],
+    "en": [
+      "Listen. Remember. Tap.",
+      "Can you match the rain?"
+    ],
+    "zh": [
+      "滴，滴滴，滴。",
+      "指尖记得节奏吗？"
+    ],
+    "es": [
+      "Escucha. Recuerda. Toca.",
+      "¿Puedes seguir la lluvia?"
+    ]
+  },
+  "brands": {
+    "ko": "빗소리 리듬 따라잡기",
+    "en": "Your Rain Signature",
+    "zh": "跟上雨滴的节奏",
+    "es": "El ritmo de la lluvia"
+  },
+  "hero": {
+    "en": {
+      "first": "You just saw the raindrops.",
+      "last": "Can you tap the same rhythm?",
+      "intro": [
+        "Watch a short rhythm of flashing raindrops.",
+        "Then tap the intervals you remember.",
+        "Three rounds reveal how closely you matched it."
+      ]
+    },
+    "zh": {
+      "first": "刚看过的雨滴，",
+      "last": "你能敲出相同节奏吗？",
+      "intro": [
+        "先看一小段雨滴闪光节奏。",
+        "再按记住的时间间隔轻点屏幕。",
+        "挑战三轮，看看你还原得有多准。"
+      ]
+    },
+    "es": {
+      "first": "Acabas de ver las gotas.",
+      "last": "¿Puedes repetir su ritmo?",
+      "intro": [
+        "Observa un breve ritmo de gotas que destellan.",
+        "Luego toca con los intervalos que recuerdes.",
+        "Tres rondas revelan cuánto te has acercado."
+      ]
+    }
+  }
+}

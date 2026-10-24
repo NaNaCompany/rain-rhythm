@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import{PATTERNS,intervals,evaluate,overall}from'../dist/engine.js';
+test('patterns are four to six beats, with varied intervals',()=>{assert.equal(PATTERNS.length,3);PATTERNS.forEach(p=>{assert.ok(p.length+1>=4&&p.length+1<=6);assert.ok(new Set(p).size>1)})});
+test('first tap absolute start does not affect score',()=>{const p=[450,700,450],a=evaluate(p,[10000,10450,11150,11600]);assert.equal(a.accuracy,100);assert.equal(a.meanMs,0);assert.deepEqual(intervals([5,10,20]),[5,10])});
+test('relative error is graded; excessive errors floor at zero',()=>{const r=evaluate([500,500],[100,650,1100]);assert.equal(r.meanMs,50);assert.equal(r.accuracy,90);assert.equal(evaluate([100,100],[0,1000,2000]).accuracy,0)});
+test('wrong tap counts rejected and round averages computed',()=>{assert.throws(()=>evaluate([100,100],[0,100]),/탭 수/);assert.deepEqual(overall([{accuracy:100,meanMs:0},{accuracy:80,meanMs:100}]),{accuracy:90,meanMs:50})});
